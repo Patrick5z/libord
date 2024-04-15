@@ -1,0 +1,35 @@
+[mysql]
+[mysql.app]
+host = "127.0.0.1"
+db = "ord"
+user = ""
+password = ""
+
+[rpc]
+[rpc.btc]
+url = "{replace to your btc rpc url}"
+user = ""
+password = ""
+[rpc.ltc]
+url = "{replace to your ltc rpc url}"
+user = ""
+password = ""
+[rpc.doge]
+url = "{replace to your doge rpc url}"
+user = ""
+password = ""
+
+[ordGenesisBlock]
+btc = 779831
+ltc = 2465225
+doge = 4630090
+
+[ordProtocolName]
+btc = "brc-20"
+ltc = "ltc-20"
+doge = "drc-20"
+
+[minConfirmation]
+btc = 3
+ltc = 4
+doge = 12
